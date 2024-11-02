@@ -1,0 +1,29 @@
+{
+  "name": "medium_blog_clone_fe",
+  "version": "1.0.0",
+  "description": "clone of medium blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrajwalSh0206/Medium_Blog_Clone_FE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrajwalSh0206/Medium_Blog_Clone_FE/issues"
+  },
+  "homepage": "https://github.com/PrajwalSh0206/Medium_Blog_Clone_FE#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.47",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
