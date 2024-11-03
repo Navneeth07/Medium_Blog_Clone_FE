@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Layout from "./layout/Layout";
+import Route from "./router/routes";
 
 function App() {
   return (
-    <div className='text-5xl'>App</div>
-  )
+    <div>
+      <Route />
+    </div>
+  );
 }
 
-export default App
+export default App;
