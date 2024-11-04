@@ -35,6 +35,7 @@ export const Authentication = () => {
     setIsSignIn(false);
     setIsSignUp(false);
     setEmailSignIn(true);
+    setEmail("")
   };
 
   const onEmailInput = (e) => {
