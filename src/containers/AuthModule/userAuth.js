@@ -117,7 +117,7 @@ export const Authentication = () => {
                 >
                   <img src={mail} alt="mail" className="flex-none"></img>
                   <button className="rounded text-sm text-center flex-1 text-btn-color">
-                    Sign Up with email
+                    Sign up with email
                   </button>
                 </div>
                 <div className="mt-5">
