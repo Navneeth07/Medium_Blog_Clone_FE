@@ -17,7 +17,7 @@ export const Authentication = () => {
   const [showErrorMessage, setShowErrorMessage] = useState(false);
 
   const onClose = () => {
-    navigate("/")
+    navigate("/");
     setIsOpen(false);
     setIsSignIn(false);
     setIsSignUp(false);
@@ -35,7 +35,7 @@ export const Authentication = () => {
     setIsSignIn(false);
     setIsSignUp(false);
     setEmailSignIn(true);
-    setEmail("")
+    setEmail("");
   };
 
   const onEmailInput = (e) => {
@@ -185,4 +185,4 @@ export const Authentication = () => {
       </CustomModal>
     </>
   );
-}
+};
