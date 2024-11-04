@@ -7,7 +7,7 @@ export const HEADER_VALUES = [
   {
     id: 2,
     name: "Sign In With Google",
-    path: "/googleSignIn",
+    path: "/authentication",
     type: "button",
   },
 ];
