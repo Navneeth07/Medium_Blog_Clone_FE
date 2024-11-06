@@ -13,3 +13,14 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+
+.btn {
+  background-color: #d6d3d3;
+  border-radius: 7px;
+  padding: 9px 25px;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

@@ -10,16 +10,23 @@ export const Header = (props) => {
         </span>
       </div>
 
-      <div className="flex flex-row gap-6 px-10">
+      <div className="flex flex-row gap-6 px-10 justify-center items-center">
         {props?.values &&
           props?.values?.map((val) => (
-            <Link
-              className={"text-sub-header-value-size font-light-bold"}
-              key={val.id}
-              to={val.path}
-            >
-              {val.name}
-            </Link>
+            <div className="flex">
+              <img src={val?.icon} />
+              <Link
+                className={
+                  val?.type === "button"
+                    ? "btn"
+                    : "text-sub-header-value-size font-light-bold"
+                }
+                key={val.id}
+                to={val.path}
+              >
+                {val.name}
+              </Link>
+            </div>
           ))}
       </div>
     </div>
